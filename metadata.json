@@ -1,0 +1,6 @@
+{
+  "name": "Água is life - Distribuidora de Água Mineral & Corporativo",
+  "description": "Distribuição de água mineral e descartáveis para órgãos públicos, construtoras, correspondentes bancários e empresas. Garrafões 20L e descartáveis de 200ml a 1,5L.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

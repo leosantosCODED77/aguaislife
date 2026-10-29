@@ -1,0 +1,19 @@
+IMAGENS CORRIGIDAS — ÁGUA IS LIFE
+
+Problema: componentes apontavam para /public/assets/... e /src/assets/images/... diretamente.
+Solução: agora o React/Vite importa as imagens como módulos, garantindo que entrem na pasta dist/ no build.
+O projeto inclui as imagens originais.
+
+COMO ABRIR NO SEU WINDOWS
+1. Extraia este ZIP para uma pasta.
+2. Abra a pasta extraída no VS Code.
+3. No Terminal do VS Code, execute: npm install
+4. Depois: npm run dev
+5. Abra o endereço local que aparecer no terminal (normalmente http://localhost:3000).
+
+COMO PUBLICAR
+1. Execute npm run build.
+2. A pasta dist/ será o site pronto para uma hospedagem de sites estáticos (ex.: Cloudflare Pages/Netlify).
+3. Não faça upload apenas do index.html nem só da pasta src; publique a dist/ completa.
+
+OBS.: sem uma hospedagem, localhost só funciona no seu próprio computador.
