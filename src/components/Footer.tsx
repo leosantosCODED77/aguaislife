@@ -1,4 +1,4 @@
-import mascoteUrl from '../assets/images/mascote_agua_is_life.png';
+import perfilEmpresaUrl from '../assets/images/perfil_agua_is_life_v2.jpeg';
 import React from 'react';
 import { Droplets, Instagram, ArrowUpRight, MessageCircle } from 'lucide-react';
 import { openWhatsApp, WHATSAPP_CONFIG } from '../config/whatsapp';
@@ -15,11 +15,11 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           {/* Brand & Mission column */}
           <div className="lg:col-span-5 space-y-4">
             <div className="flex items-center gap-2.5">
-              <div className="w-10 h-10 rounded-xl overflow-hidden bg-sky-950 border border-sky-700 shadow-sm shrink-0 flex items-center justify-center">
+              <div className="w-10 h-10 rounded-xl overflow-hidden bg-white border border-sky-400/30 shadow-sm shrink-0 flex items-center justify-center p-0.5">
                 <img
-                  src={mascoteUrl}
-                  alt="Água is life Mascote Oficial"
-                  className="w-full h-full object-cover object-top"
+                  src={perfilEmpresaUrl}
+                  alt="Foto de perfil oficial Água is life"
+                  className="w-full h-full object-contain"
                 />
               </div>
               <span className="font-display font-extrabold text-2xl tracking-tight text-white">

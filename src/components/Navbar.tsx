@@ -1,4 +1,4 @@
-import mascoteUrl from '../assets/images/mascote_agua_is_life.png';
+import perfilEmpresaUrl from '../assets/images/perfil_agua_is_life_v2.jpeg';
 import React, { useState } from 'react';
 import { Droplets, Menu, X, ArrowUpRight } from 'lucide-react';
 import { openWhatsApp } from '../config/whatsapp';
@@ -27,11 +27,11 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate }) => {
             className="flex items-center gap-2.5 text-left text-sky-950 hover:text-sky-700 transition-colors cursor-pointer group shrink-0"
             aria-label="Ir para a página inicial da Água is life"
           >
-            <div className="w-11 h-11 rounded-xl overflow-hidden bg-sky-100 border border-sky-300 shadow-sm group-hover:scale-105 transition-transform shrink-0 flex items-center justify-center">
+            <div className="w-11 h-11 rounded-xl overflow-hidden bg-white border border-sky-200 shadow-sm group-hover:scale-105 transition-transform shrink-0 flex items-center justify-center p-0.5">
               <img
-                src={mascoteUrl}
-                alt="Água is life Mascote Oficial"
-                className="w-full h-full object-cover object-top"
+                src={perfilEmpresaUrl}
+                alt="Foto de perfil oficial Água is life"
+                className="w-full h-full object-contain"
               />
             </div>
             <div className="flex flex-col">

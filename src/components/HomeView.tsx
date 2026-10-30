@@ -1,4 +1,4 @@
-import mascoteUrl from '../assets/images/mascote_agua_is_life.png';
+import perfilEmpresaUrl from '../assets/images/perfil_agua_is_life_v2.jpeg';
 import waterHeroUrl from '../assets/images/water_distribution_hero_1793218678552.jpg';
 import React, { useState } from 'react';
 import { 
@@ -220,8 +220,8 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate, onOpenMascotModa
                   className="relative mt-8 bg-gradient-to-b from-sky-100/70 via-sky-50/40 to-white rounded-2xl p-4 border border-sky-200 shadow-inner flex items-center justify-center cursor-pointer group-hover:border-sky-400 transition-all"
                 >
                   <img
-                    src={mascoteUrl}
-                    alt="Mascote da Água is life com Garrafão 20L de água mineral nos ombros dando sinal de positivo"
+                    src={perfilEmpresaUrl}
+                    alt="Foto de perfil e logotipo oficial da Água is life Distribuidora de Água Mineral"
                     className="crisp-mascot-img w-full max-h-[380px] object-contain transition-transform duration-300 group-hover:scale-105"
                   />
                 </div>

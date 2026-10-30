@@ -1,4 +1,4 @@
-import mascoteUrl from '../assets/images/mascote_agua_is_life.png';
+import perfilEmpresaUrl from '../assets/images/perfil_agua_is_life_v2.jpeg';
 import React, { useState } from 'react';
 import { PRODUCTS } from '../data/products';
 import { 
@@ -364,14 +364,14 @@ export const ContactView: React.FC<ContactViewProps> = ({
                 className="bg-gradient-to-b from-sky-50 to-white rounded-2xl p-4 border border-sky-100 flex items-center justify-center cursor-pointer group"
               >
                 <img
-                  src={mascoteUrl}
-                  alt="Mascote Água is life em alta nitidez"
+                  src={perfilEmpresaUrl}
+                  alt="Foto de perfil oficial Água is life em alta nitidez"
                   className="crisp-mascot-clean max-h-52 object-contain transition-transform group-hover:scale-105"
                 />
               </div>
 
               <p className="text-xs text-slate-600 mt-3 text-center leading-relaxed">
-                Identidade oficial com garrafão 20L e uniforme azul. Entrega direta, confiável e com procedência mineral garantida.
+                Foto de perfil e logotipo oficial da Água is life. Entrega direta, confiável e com procedência mineral garantida.
               </p>
             </div>
 

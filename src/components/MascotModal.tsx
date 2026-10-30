@@ -1,4 +1,4 @@
-import mascoteUrl from '../assets/images/mascote_agua_is_life.png';
+import perfilEmpresaUrl from '../assets/images/perfil_agua_is_life_v2.jpeg';
 import React, { useState } from 'react';
 import { X, ZoomIn, ZoomOut, CheckCircle2, ShieldCheck, Sparkles } from 'lucide-react';
 
@@ -26,7 +26,7 @@ export const MascotModal: React.FC<MascotModalProps> = ({ isOpen, onClose }) => 
               Identidade Visual Oficial — Água is life
             </h3>
             <p className="text-xs text-slate-500">
-              Mascote e selo oficial de entrega, confiança e pureza mineral
+              Foto de perfil e logotipo oficial de entrega, confiança e pureza mineral
             </p>
           </div>
           <button
@@ -42,8 +42,8 @@ export const MascotModal: React.FC<MascotModalProps> = ({ isOpen, onClose }) => 
         <div className="flex-1 overflow-auto p-6 flex flex-col items-center justify-center bg-radial from-white via-sky-50/40 to-slate-100">
           <div className="relative overflow-hidden rounded-xl border border-sky-200/60 bg-white/80 p-6 shadow-inner flex items-center justify-center min-h-[360px] w-full">
             <img
-              src={mascoteUrl}
-              alt="Mascote Oficial Água is life com Garrafão 20L"
+              src={perfilEmpresaUrl}
+              alt="Foto de perfil e logotipo oficial Água is life"
               className="crisp-mascot-img object-contain transition-transform duration-200"
               style={{
                 transform: `scale(${zoomLevel})`,
@@ -91,7 +91,7 @@ export const MascotModal: React.FC<MascotModalProps> = ({ isOpen, onClose }) => 
                 Padrão de Qualidade &amp; Entrega Confiável
               </p>
               <p className="text-xs text-slate-600 mt-0.5 leading-relaxed">
-                Mascote oficial com boné e camisa personalizada "Água is life", representando o profissionalismo na entrega de galões 20L e linha completa de descartáveis para canteiros, secretarias e bancos.
+                Logotipo e perfil oficial "Água is life", representando o profissionalismo no fornecimento de galões 20L e linha completa de descartáveis para canteiros, secretarias e bancos.
               </p>
             </div>
           </div>
