@@ -269,12 +269,12 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate, onOpenMascotModa
             </div>
 
             {/* Testimonial Nav Tabs */}
-            <div className="flex items-center gap-2 bg-sky-950/80 p-1.5 rounded-2xl border border-sky-800">
+            <div className="flex w-full min-w-0 md:w-auto items-center gap-2 bg-sky-950/80 p-1.5 rounded-2xl border border-sky-800 overflow-x-auto md:overflow-visible">
               {testimonials.map((item, idx) => (
                 <button
                   key={idx}
                   onClick={() => setActiveTestimonial(idx)}
-                  className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer whitespace-nowrap ${
+                  className={`shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer whitespace-nowrap ${
                     activeTestimonial === idx
                       ? 'bg-cyan-400 text-slate-950 shadow-sm'
                       : 'text-sky-300 hover:text-white hover:bg-sky-900/60'
